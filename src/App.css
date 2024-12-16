@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+.containr {
+  margin-top: 3%;
+  font-family: Arial, sans-serif;
+ /* background: url('images/image.jpg') no-repeat center center fixed; /* Remplace par l'URL de ton image de fond */
+  background-size: cover;
+  color: white; /* Couleur du texte */
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.containr {
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: auto; /* Hauteur de la fenêtre */
+  /* text-align: center; */
+ /* width: inherit; */
+ /* overflow: scroll; */
+/* opacity: 1; */
 }
 
-.App-link {
-  color: #61dafb;
+.containr .titre{
+  color: rgb(246, 244, 244);
+  margin-top: 10%;
+  /* color: white; */
+  text-shadow: 1px 1px 2px rgb(25, 25, 25), 0 0 25px rgb(242, 239, 176), 0 0 5px rgb(196, 186, 73);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containr .desc{
+  margin-top: 6%;
+  width: 95%;
+  margin-left: 4%;
+}
+.containr .desc::first-letter{
+  font-size: 7em;
+  float: left;
+  margin: 0 10px 0 0;
+  line-height: 0.5;
+  color: #eee2a0; /* Couleur personnalisée pour la lettre */
+}
+
+.b{
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 30%;
+  
+ 
+}
+.modal-header {
+  background-color: #5a563f; /* Couleur de fond de l'en-tête du modal */
+  color: rgb(227, 219, 219); /* Couleur du texte de l'en-tête */
+  text-align: center;
+  justify-content: center;
+}
+
+.modal-body {
+  background-color: #f8f9fa; /* Couleur de fond du corps du modal */
+  font-size: 0.9rem; /* Réduire la taille de la police */
+ max-width: 100%;
+ color: black;
+}
+
+.modal-footer {
+  background-color: #e9ecef; /* Couleur de fond du pied de page du modal */
+
+}
+
+.modal-dialog {
+  max-width: 10px; /* Augmenter la largeur du modal */
+}
+
+.modal-content {
+  border-radius: 8px; /* Arrondir les coins du modal */
+}
+
+button.close {
+  color: white; /* Couleur de l'icône de fermeture */
+}
+
+button.btn-primary {
+  background-color: #524108; /* Couleur de fond pour le bouton envoyer */
+  border-color: #ecf0f4; /* Couleur de bordure pour le bouton envoyer */
+}
+button.btn-primary:hover {
+  background-color: #b08d19; /* Couleur de fond pour le bouton envoyer */
+  border-color: #ecf0f4; /* Couleur de bordure pour le bouton envoyer */
+}
+ .badge{
+  background-color: #524108; /* Couleur de fond pour le bouton envoyer */
+  border-color: #ecf0f4; 
+}
+ .badge{
+  background-color: #524108; /* Couleur de fond pour le bouton envoyer */
+  border-color: #ecf0f4; 
+}
+button.btn-danger {
+  background-color: #4a030a; /* Couleur de fond pour le bouton fermer */
+  border-color: #dc3545; /* Couleur de bordure pour le bouton fermer */
+}
+.Compte{
+  /* opacity: 1; */
+  display: block;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px rgb(25, 25, 25), 0 0 25px rgb(242, 239, 176), 0 0 5px rgb(196, 186, 73);
+
+}
+
+.t{
+  font-size: 20px;
+  margin-top: 1%;
+ margin-left: 60%;
+}
+.tr{
+ font-size: 20px;
+ margin-left: 20%;
+} 
+.containr .ls{
+  /* opacity: 1; */
+  width: 60%;
+  height: 55%;
+  overflow: scroll;
+  margin-left: 17%;
+  margin-right: 10%;
+  justify-content: center;
+  content: inherit;
+  position: fixed;
+  /* background-color: #e9ecef; */
 }
